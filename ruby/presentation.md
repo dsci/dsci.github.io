@@ -642,6 +642,12 @@ Zusammenfassung von <span class="important">State</span> & <span class="importan
   <li><span class="important">Aber:</span> gibt es defacto nicht!</li>
 </ul>
 
+!SLIDE slide x=-4950 y=-1600
+
+## Klassenmethoden
+
+"Class methods are not defined on the 'eigen<span class="important">class</span>', they're instance methods on the class objects."
+
 !SLIDE slide x=-5800 y=-2400
 
 ## Vererbung
@@ -784,7 +790,7 @@ Zusammenfassung von <span class="important">State</span> & <span class="importan
 
 ## Procs
 
-Beispiel
+<img src="images/proc_return.png">
 
 !SLIDE slide x=-16000 y=-2400
 
@@ -806,7 +812,7 @@ Beispiel
 
 ## Lambdas
 
-Beispiel
+<img src="images/lambda_return.png">
 
 !SLIDE slide x=-17700 y=-2400
 
@@ -823,6 +829,12 @@ Beispiel
 </ul>
 
 <img src="images/monkeypatching.png" style="margin-top:-20px;"/>
+
+!SLIDE slide x=-18550 y=-1700
+
+## Even Java!
+
+<img src="images/jruby_open_classes.png" />
 
 !SLIDE slide x=-19400 y=-2400
 
