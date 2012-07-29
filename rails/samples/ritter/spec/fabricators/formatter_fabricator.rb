@@ -1,0 +1,2 @@
+Fabricator(:formatter) do
+end

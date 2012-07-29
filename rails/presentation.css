@@ -1,0 +1,226 @@
+/* add your css style rules here */
+
+
+@font-face {
+  font-family: FontAwesome;
+  src: url('FontAwesome.ttf');
+}
+
+@font-face {
+  font-family: Chunkfive;
+  src: url('Chunkfive.otf');
+}
+
+body {
+  background-color: #9ACD34;
+  color: white; 
+}
+
+html{
+  font-family: Chunkfive, Georgia, Palatino, Times New Roman, serif;
+}
+
+#company_logo{
+  background: url('images/signet.jpeg') no-repeat;
+  width:190px;
+  height:122px;
+}
+
+h2{
+  color: white;
+  margin-top:0px;
+  padding:20px;
+  text-align:left;
+  background-color:black;
+  font-size:42px;
+}
+
+h2 a{
+  color:white;
+}
+
+.step {
+  width: 800px;
+  height: 600px;
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  opacity: 0.3;
+  /*
+  border-radius: 10px;
+  border: 2px solid blue;
+  background-color: #99dd10;*/
+}
+
+.step.active {
+  opacity: 1;
+  /*border: 3px solid red;*/
+  background-color: white;
+}
+
+code {
+  background-color: red;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+}
+
+.smaller_step{
+  font-size:42px;
+  text-align:left;
+}
+
+.very_small_step{
+  font-size:20px;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  text-align:left;
+}
+
+#octocat{
+  width: 297px;
+  float:left;
+}
+
+#github_links{
+  margin-left: 180px;
+  font-size:0.8em;
+}
+
+#github_links ul li{
+  text-align: left;
+}
+
+.gist{
+  font-size: 0.6em;
+  text-align:left;
+}
+
+#priest{
+  background: url('images/marry.png');
+  width:800px;
+  height:600px;
+}
+
+#only_priest{
+  background: url('images/priest_only.png');
+  width:800px;
+  height:600px;
+}
+
+#sender{
+  background: url('images/sender.png');
+  width:800px;
+  height:600px;
+}
+
+#method_call{
+  position:absolute;
+  top:330px;
+  left:50px;
+}
+
+.overall_background{
+  z-index: -999;
+  min-height: 100%;
+  min-width: 600px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+
+.fixnum_rotated{
+  -webkit-transform: rotate(-5deg);
+  position:absolute;
+  left:400px;
+  top:240px;
+}
+
+.superclass_rotated{
+  -webkit-transform: rotate(5deg);
+  position:absolute;
+  left:400px;
+  top:351px;
+}
+
+.nil_rotated{
+  -webkit-transform: rotate(-5deg);
+  position:absolute;
+  left:200px;
+  top:440px;
+}
+
+#origin{
+  font-size:0.3em;
+  color: gray;
+  position:absolute;
+  top: 580px;
+  left:500px;
+}
+
+.important{
+  color:red;
+  font-weight:bold;
+}
+
+#rob_link{
+  position:absolute;
+  top:400px;
+  left:500px;  
+}
+
+#rob_link a{
+  color:white;
+}
+
+#cls_equality{
+  position: absolute;
+  top:400px;
+  left:30px;
+}
+
+#me_container{
+  text-align:left;
+  margin-left:25px;
+}
+
+#me_position{
+  text-align:left;
+  color:gray;
+}
+
+#me_container .twitter{
+  font-family: FontAwesome;
+  color: #52D5F4;
+  font-size: 1.5em;
+  position:relative;
+  margin-top:10px;
+}
+
+#additional_me{
+  color:gray;
+}
+
+.white_font{
+  color:white;
+  text-align:left;
+  font-size:0.7em;
+  margin-left:10px;
+  margin-top:-50px;
+}
+

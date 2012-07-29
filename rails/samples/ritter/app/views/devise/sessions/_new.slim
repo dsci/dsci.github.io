@@ -1,0 +1,14 @@
+.login
+  h2 Login to ritter
+  = form_tag user_session_path, :class=>"form-horizontal well" do
+    fieldset
+      div.control-group
+        = label_tag 'user_login',t('activerecord.attributes.user.login')
+        = text_field_tag 'user[login]'
+      div.control-group
+        = label_tag 'user_password',t('activerecord.attributes.user.password')
+        = password_field_tag 'user[password]'
+      div.control-group
+        = check_box_tag 'user[remember_me]'
+        = label_tag 'user[remember_me]', 'Remember me'
+      = submit_tag "Sign in", :class => "btn btn-success"

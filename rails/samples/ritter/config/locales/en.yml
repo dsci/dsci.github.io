@@ -1,0 +1,12 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  post:
+    overview: "You have %{count} post(s) at all."
+  validations:
+    buzzword_not_allowed: "The word %{word} is not allowed!"
+  activerecord:
+    attributes:
+      post:
+        text: "Write a post"

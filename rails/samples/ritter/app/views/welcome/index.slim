@@ -1,0 +1,49 @@
+- if current_user
+    
+  = form_for @post, :html =>{:class => "post well form-horizontal"} do |f|
+    fieldset
+      div.control-group
+        = f.label :text
+        = f.text_area :text, :class => 'post_text'
+      = f.submit "Ritterize that", :class=>"btn-primary btn-large"
+
+  .posts
+    div.row
+      div.span12 style="font-size:30px;font-weight:bold;"
+        i class="icon-bar-chart" style="color:green;"
+        span style="padding-left:5px;font-size:25px;"
+          = t("post.overview", :count => @my_posts.size)
+    div.row.post-list
+      div.span8
+        h3
+          i class="icon-book"
+          | Your most recent posts
+        - unless @my_posts.empty?
+
+          ul.unstyled
+            - @my_posts.limit(5).each do |post|
+              li
+                = post.text
+        - unless @posts.empty?
+            div.post_list
+              - @posts.each do |post|
+                  div.post-entry
+                    div.post-text
+                      = post.text
+                    div.post-menu
+                      span id="fave_post_#{post.id}"  
+                        = link_to "Fave", fave_post_path(post), :class => "btn btn-success fave_post", :remote => true, :id => "post#{post.id}", :method => :get
+      div.span4
+        h3 
+          i class="icon-star"
+          | What's new with your favs?
+        | klsl
+
+- else
+  .posts
+    - unless @posts.empty?
+
+      ul.unstyled
+        - @posts.each do |post|
+          li
+            = post.text

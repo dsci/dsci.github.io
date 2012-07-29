@@ -1,0 +1,16 @@
+div.navbar.navbar-fixed-top
+  div.navbar-inner
+    div.container
+      a href="/" class="brand" Ritter
+
+      ul class="nav pull-right"
+        - if user_signed_in?
+          li
+            a href="#"
+              span class="badge badge-info"
+                = "Hi, #{current_user.username} !"
+          li
+            = link_to('Sign out', destroy_user_session_path, :method => :delete)
+
+- unless current_user
+  = render :partial => '/devise/sessions/new' 

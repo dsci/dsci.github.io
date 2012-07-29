@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    = csrf_meta_tag
+    = stylesheet_link_tag "application"
+    = javascript_include_tag "application"
+    title = Ritter
+  body id="application"
+    - if flash[:notice]
+        = flash[:notice]
+    - if flash[:alert]
+        = flash[:alert]
+    
+    .container.body_container
+        div.ritter-logo
+
+        = render :partial => 'shared/head'
+        = yield
+    
+        footer.body_container
+            | hi

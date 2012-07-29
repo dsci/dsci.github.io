@@ -1,0 +1,39 @@
+.navbar-fixed-top .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 10px;
+  float: left;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+}
+
+.post{
+  margin-top:20px;
+}
+
+.post label{
+  font-size:1.8em;
+}
+
+.post_text{
+  width:800px;
+  height:40px;
+}
+
+.login{
+  width:400px;
+  margin-top:60px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.post-list{
+  margin-top:20px;
+}

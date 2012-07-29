@@ -13,9 +13,3 @@ hsh.except!(:a,:d,:b)
 
 p hsh.has_key?(:a)
 p hsh.has_key?(:c)
-
-def with_return_and_new
-  prc = Proc.new { return 'This is printed' }
-  prc.call
-  'Never seen'
-end
