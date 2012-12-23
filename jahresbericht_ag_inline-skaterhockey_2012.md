@@ -10,18 +10,18 @@
 #### Aktivitäten 2012
 ----
 
-** Lange Nacht des Sports **
+**Lange Nacht des Sports**
 
 * Teilnahme an der **Langen Nacht des Sports** 2012
 * Guter Ausstellungsplatz durch Überdachung und Dauerregen. Präsenz bei LVZ Online (Video und Foto)
 * Reger Zuspruch
 
-** Tag des Sports Johannes Kepler Gymnasium **
+**Tag des Sports Johannes Kepler Gymnasium**
 
 * Durch Kontakt/Interesse einer Lehrerin bei der **Langen Nacht des Sports** entstanden
 * Von 9 bis 14 Uhr in der Turnhalle Vorstellung der Sport **Inline-Skaterhockey** für Klassenstufen 5-10 durch Dirk Strechel und Daniel Schmidt
 
-** Universität Leipzig**
+**Universität Leipzig**
 
 * im Rahmen des Kurses "Inline-Skaten" konnte in einer halben Stunde die Sportart Inline-Skaterhockey den StudentInnen näher gebracht werden
 * im Rahmen der Kursrichtungen Wintersport-/Trendsportarten wurde im Park 5.1 interessierten StudentInnen die Sportart Inline-Skaterhockey näher gebracht
