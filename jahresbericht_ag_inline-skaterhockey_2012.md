@@ -38,7 +38,7 @@
 
 * ab Mitte des Sommers konnte durch die Verbindungen des Spielers Michael Rühl unter der Woche in einer Turnhalle trainiert werden
 
-###### Ausbildungen
+##### Ausbildungen
 ------
 
 * Ende April/Mai erfolgreiche Ausbildung des Spielers Daniel Schmidt zum ISHD Stufe-4 Schiedsrichter
